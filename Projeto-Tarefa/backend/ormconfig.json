@@ -1,0 +1,18 @@
+{
+    "type": "postgres",
+    "host":    "peanut.db.elephantsql.com",
+    "port": 5432,
+    "username": "cvfqogyg",
+    "password": "wDpGmXDHKTQdcjODKxKnYvcm8j5qDC1K",
+    "database":"cvfqogyg",
+    "synchronize" : true,
+    "entities": [
+        "./src/entity/*.ts"
+    ],
+    "migrations": [
+        "./src/modules/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
